@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(18, 197, 252);
+}
+
+div.head{
+    background-color: rgb(185, 185, 185);
+    height: 500px;
+    width: 500px;
+    margin-left: 400px;
+    margin-top: 70px;
+    border-radius: 50%;
+    position:absolute;
+    z-index:1;
+}
+
+div.left-eye{
+background-color:white;
+height: 180px;
+width: 180px;
+border-radius: 50%;
+z-index: 2;
+margin-left: 480px;
+position: fixed;
+margin-top: 180px;
+}
+
+div.right-eye{
+    background-color:white;
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    z-index: 2;
+    margin-left: 640px;
+    position: fixed;
+    margin-top: 180px;
+}
+
+div.left-pupils{
+    background-color:rgb(30, 30, 95);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    z-index: 2;
+    margin-left: 705px;
+    position: fixed;
+    margin-top: 240px; 
+}
+
+div.right-pupils{
+    background-color:rgb(30, 30, 95);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    z-index: 2;
+    margin-left: 550px;
+    position: fixed;
+    margin-top: 240px;
+}
+
+div.nose{
+    background-color:rgb(204, 117, 117);
+    height: 180px;
+    width: 100px;
+    z-index: 2;
+    margin-left: 600px;
+    position: fixed;
+    margin-top: 280px;
+    border-radius: 150px 150px 150px 150px;
+}
+
+div.left-ear{
+    background-color: rgb(185, 185, 185);
+    height: 300px;
+    width: 300px;
+    margin-left: 300px;
+    margin-top: 110px;
+    border-radius: 50%;
+    position: fixed;
+}
+
+div.right-ear{
+    background-color: rgb(185, 185, 185);
+    height: 300px;
+    width: 300px;
+    margin-left: 700px;
+    margin-top: 110px;
+    border-radius: 50%;
+    position: fixed;
+}
+
+div.inner-left-ear{
+    background-color: rgb(122, 122, 122);
+    height: 270px;
+    width: 280px;
+    margin-left: 705px;
+    margin-top: 125px;
+    border-radius: 50%;
+    position: fixed;
+}
+
+div.inner-right-ear{
+    background-color: rgb(122, 122, 122);
+    height: 270px;
+    width: 280px;
+    margin-left: 320px;
+    margin-top: 125px;
+    border-radius: 50%;
+    position: fixed;
+}
+
+div.first-hair{
+    /* width: 100px;
+    height: 100px; */
+    position: fixed;
+    margin-left: 560px;
+    margin-top: 20px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 40px 100px 40px;
+    border-color: transparent transparent rgb(185,185,185) 
+}
+
+div.second-hair{
+    /* width: 100px;
+    height: 100px; */
+    position: fixed;
+    margin-left: 660px;
+    margin-top: 40px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 40px 100px 40px;
+    border-color: transparent transparent rgb(185,185,185) 
+}
